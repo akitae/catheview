@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Castellar;
+  src: url("css/font/CASTELAR.ttf") !important; }
+html, body {
+  font-family: "Courier New";
+  font-size: 16px; }
+
+h1 {
+  font-family: Castellar;
+  color: #E2BF00; }
+
+.header {
+  background-color: #CC1C55; }
+  .header .nav-item .nav-link {
+    color: white; }
+
+.presentation-catheview .logo {
+  display: flex;
+  justify-content: center; }
+.presentation-catheview .texte {
+  display: flex;
+  align-items: center;
+  padding-top: 30px; }
+
+.presentation-jeu-de-piste {
+  margin: 50px 0 50px 0; }
+
+.choix-cathedrale {
+  padding-bottom: 30px; }
+  .choix-cathedrale .image-cathedrale {
+    cursor: pointer; }
+
+.footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  height: 75px; }
+
+/*# sourceMappingURL=style.css.map */
