@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Cathéview</title>
-    <link rel="stylesheet" href="/catheview/css/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/catheview/css/style.css">
-    <script src="js/bootstrap//bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
 
