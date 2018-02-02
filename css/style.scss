@@ -13,6 +13,10 @@ html, body {
   font-size: 16px;
 }
 
+.content {
+  background-color: #e9f0f5;
+}
+
 h1 {
   font-family: Castellar;
   color: #E2BF00;
@@ -20,8 +24,9 @@ h1 {
 
 // HEADER
 .header {
+  height: 75px;
   background-color: #CC1C55;
-
+  font-size: 25px;
   .nav-item {
     .nav-link {
       color: white;
@@ -62,4 +67,36 @@ h1 {
   height: 75px;
 }
 
+
+/* ========== FOMRULAIRE QUESTION ========== */
+.question {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #e9f0f5;
+  padding: 10px;
+  .container-numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Numéro de la question */
+    .numero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #CC1C55;
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+
+  .label-question {
+    font-family: Castellar;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Castellar;
   src: url("css/font/CASTELAR.ttf") !important; }
@@ -5,12 +6,17 @@ html, body {
   font-family: "Courier New";
   font-size: 16px; }
 
+.content {
+  background-color: #e9f0f5; }
+
 h1 {
   font-family: Castellar;
   color: #E2BF00; }
 
 .header {
-  background-color: #CC1C55; }
+  height: 75px;
+  background-color: #CC1C55;
+  font-size: 25px; }
   .header .nav-item .nav-link {
     color: white; }
 
@@ -34,5 +40,32 @@ h1 {
   background-color: #000000;
   color: white;
   height: 75px; }
+
+/* ========== FOMRULAIRE QUESTION ========== */
+.question {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #e9f0f5;
+  padding: 10px; }
+  .question .container-numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Num├®ro de la question */ }
+    .question .container-numero .numero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #CC1C55;
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%; }
+  .question .label-question {
+    font-family: Castellar;
+    font-size: 18px;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

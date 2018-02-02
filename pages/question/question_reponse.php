@@ -19,21 +19,43 @@
     // Vue
     include("../header/controller.php");
 
+    $counter = 1;
     foreach ($questions as $question) {
         echo '
-            <div class="form-group">
-                <label>'.$question->getQuestion().'</label>';
+            <div class="question">
+                <div class="row">
+                    <div class="col-1 container-numero">
+                        <div class="numero">'.$counter.'</div>
+                    </div>
+                    <div class="col-11">
+                        <div class="row">
+                            <div class="col-12">
+                                <label class="label-question">'.$question->getQuestion().'</label>
+                            </div>
+                        </div>';
 
-        foreach ($question->getArrayReponse() as $reponse) {
-            echo '
-            <label class="custom-control custom-radio">
-              <input name="'.$question->getId().'" type="radio" class="custom-control-input">
-              <span class="custom-control-indicator"></span>
-              <span class="custom-control-description">'.$reponse.'</span>
-            </label>
-            ';
-        }
+                echo
+                '       <div class="row">
+                            <div class="col-12">';
+                        foreach ($question->getArrayReponse() as $reponse) {
+                            echo '
+                                <label class="custom-control custom-radio">
+                                  <input name="'.$question->getId().'" type="radio" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">'.$reponse.'</span>
+                                </label>
+                            ';
+                        }
+                    echo '
+                            </div>
+                         </div>
+                    ';
 
-        echo '</div>';
+        echo '
+                    </div>
+                </div>
+            </div>';
+
+        $counter++;
     }
 
