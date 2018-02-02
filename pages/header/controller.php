@@ -6,5 +6,4 @@
 //    echo ROOT_PATH;
 //    $bootstrapCssPath = ROOT_PATH."css/bootstrap/bootstrap.css";
 
-
     include("header.php");

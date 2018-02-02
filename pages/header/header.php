@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Cathéview</title>
-    <link rel="stylesheet" href="/catheview/css/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/catheview/css/style.css">
-    <script src="js/bootstrap//bootstrap.min.js"></script>
+    <?php include('config/config.php');
+    ?>
+    <link rel="stylesheet" href="<?=$host?>/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="<?=$host ?>/css/style.css">
+    <script src="<?php echo $host ?>/js/bootstrap/bootstrap.min.js"></script>
 </head>
 <body>
 
