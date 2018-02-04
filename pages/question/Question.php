@@ -8,7 +8,9 @@ class Question
 
     private $arrayReponse = array();
 
-    private $reponse;
+    private $idReponse;
+
+    private $userReponse;
 
     /**
      * @return mixed
@@ -61,17 +63,33 @@ class Question
     /**
      * @return mixed
      */
-    public function getReponse()
+    public function getIdReponse()
     {
-        return $this->reponse;
+        return $this->idReponse;
     }
 
     /**
-     * @param mixed $reponse
+     * @param mixed $idReponse
      */
-    public function setReponse($reponse)
+    public function setIdReponse($idReponse)
     {
-        $this->reponse = $reponse;
+        $this->idReponse = $idReponse;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getUserReponse()
+    {
+        return $this->userReponse;
+    }
+
+    /**
+     * @param mixed $userReponse
+     */
+    public function setUserReponse($userReponse)
+    {
+        $this->userReponse = $userReponse;
     }
 
 }
