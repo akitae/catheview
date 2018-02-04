@@ -8,7 +8,7 @@
 
     // Vue
 
-    echo '<form action="question_reponse.php" method="post">';
+    echo '<form action="" method="post">';
 
     $counter = 1;
     foreach ($questions as $question) {
@@ -54,9 +54,9 @@
             if (isset($resultat)) {
                 $arrayReponse = $question->getArrayReponse();
                 if (strcmp($arrayReponse[$question->getIdReponse()-1], $question->getUserReponse()) == 0) {
-                    echo '<img src="../../images/check.png" width="40px"/>';
+                    echo '<img src="images/check.png" width="40px"/>';
                 } else {
-                    echo '<img src="../../images/cancel.png" width="40px"/>';
+                    echo '<img src="images/cancel.png" width="40px"/>';
                 }
             }
         echo '</div>';
