@@ -36,14 +36,15 @@
         <div class="container">
             <?php
                 if(isset($_GET["page"])){
-                    echo $_GET["page"];
-                    if($_GET["page"] == 'aide'){
-                        include ("pages/aide/aide.html");
-                    }else if($_GET["page"] == 'question'){
-                        include ("pages/question/question_reponse.php");
-                    }
-                    else{
-                        include("pages/accueil/index.html");
+                    switch ($_GET["page"]){
+                        case "aide":
+                            include ("pages/aide/aide.html");
+                            break;
+                        case "question":
+                            include ("pages/question/question_reponse.php");
+                            break;
+                        default:
+                            include("pages/accueil/index.html");
                     }
                 }else{
                     include("pages/accueil/index.html");
