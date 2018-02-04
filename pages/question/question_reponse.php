@@ -7,7 +7,6 @@
 
 
     // Vue
-    include("../header/controller.php");
 
     echo '<form action="question_reponse.php" method="post">';
 
