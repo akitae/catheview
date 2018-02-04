@@ -17,7 +17,6 @@
     $questions = array($question1, $question2);
 
     // Vue
-    include("../header/controller.php");
 
     $counter = 1;
     foreach ($questions as $question) {

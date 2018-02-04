@@ -39,7 +39,10 @@
                     echo $_GET["page"];
                     if($_GET["page"] == 'aide'){
                         include ("pages/aide/aide.html");
-                    }else{
+                    }else if($_GET["page"] == 'question'){
+                        include ("pages/question/question_reponse.php");
+                    }
+                    else{
                         include("pages/accueil/index.html");
                     }
                 }else{
