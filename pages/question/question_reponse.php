@@ -1,86 +1,71 @@
 <?php
-
-
     include("create_question.php");
-
     include("reponse.php");
-
-
-    // Vue
 
     echo '<form action="" method="post">';
 
     $counter = 1;
     foreach ($questions as $question) {
-        echo '
-            <div class="question">
-                <div class="row align-items-center">
-                    <div class="col-1 container-numero">
-                        <div class="numero">'.$counter.'</div>
-                    </div>
-                    <div class="col-10">
-                        <div class="row">
-                            <div class="col-12">
-                                <label class="label-question">'.$question->getQuestion().'</label>
-                            </div>
-                        </div>';
+        echo '<div class="question">';
+            echo'<div class="row align-items-center">';
+                echo'<div class="col-1 container-numero">';
+                    echo'<div class="numero">'.$counter.'</div>';
+                echo'</div>';
+                echo'<div class="col-10">';
+                    echo'<div class="row">';
+                        echo'<div class="col-12">';
+                            echo'<label class="label-question">'.$question->getQuestion().'</label>';
+                        echo'</div>';
+                    echo'</div>';
 
-                echo '<div class="row">';
-                    echo '<div class="col-12">';
-                        foreach ($question->getArrayReponse() as $reponse) {
-                            $checked = "";
-                            $disabled = "";
-                            // On check la radio que l'utilisateur a sélectionné.
-                            if (isset($resultat)) {
-                                $disabled = "disabled";
-                                $arrayReponse = $question->getArrayReponse();
-                                if (strcmp($reponse, $question->getUserReponse()) == 0) {
-                                    $checked = "checked";
+                    echo '<div class="row">';
+                        echo '<div class="col-12">';
+                            foreach ($question->getArrayReponse() as $reponse) {
+                                $checked = "";
+                                $disabled = "";
+                                $cssClass = "";
+                                // On check la radio que l'utilisateur a sélectionné.
+                                if (isset($resultat)) {
+                                    $disabled = "disabled";
+                                    $arrayReponse = $question->getArrayReponse();
+                                    if (strcmp($reponse, $question->getUserReponse()) == 0) {
+                                        $checked = "checked";
+                                    }
+
+                                    if (strcmp($arrayReponse[$question->getIdReponse()-1], $reponse) == 0) {
+                                        $cssClass = "the-true";
+                                    }
+
+                                    if (strcmp($arrayReponse[$question->getIdReponse()-1], $question->getUserReponse()) != 0 && strcmp($reponse, $question->getUserReponse()) == 0) {
+                                        $cssClass = "wrong";
+                                    }
                                 }
+                                echo '<div class="form-check form-check-inline">';
+                                    echo '<label class="form-check-label">';
+                                        echo '<input class="form-check-input" type="radio" name="'.$question->getId().'" value="'.$reponse.'" '.$checked.' '.$disabled.'>';
+                                        echo '<span class="'.$cssClass.'">'.$reponse.'</span>';
+                                    echo '</label>';
+                                echo '</div>';
                             }
-                            echo '<label class="custom-control custom-radio">';
-                            echo '<input name="'.$question->getId().'" type="radio" class="custom-control-input" value="'.$reponse.'" '.$checked.' '.$disabled.'>';
-                            echo '<span class="custom-control-indicator"></span>';
-                            echo '<span class="custom-control-description">'.$reponse.'</span>';
-                            echo'</label>';
+                        echo '</div>';
+                    echo '</div>';
+                echo '</div>';
+                echo '<div class="col-1 text-center">';
+                    if (isset($resultat)) {
+                        $arrayReponse = $question->getArrayReponse();
+                        if (strcmp($arrayReponse[$question->getIdReponse()-1], $question->getUserReponse()) == 0) {
+                            echo '<img src="images/check.png" width="40px"/>';
+                        } else {
+                            echo '<img src="images/cancel.png" width="40px"/>';
                         }
-                    echo '
-                            </div>
-                         </div>
-                    ';
-
-        echo '</div>';
-        echo '<div class="col-1 text-center">';
-            if (isset($resultat)) {
-                $arrayReponse = $question->getArrayReponse();
-                if (strcmp($arrayReponse[$question->getIdReponse()-1], $question->getUserReponse()) == 0) {
-                    echo '<img src="images/check.png" width="40px"/>';
-                } else {
-                    echo '<img src="images/cancel.png" width="40px"/>';
-                }
-            }
-        echo '</div>';
-
-        echo '
-            </div>
-            </div>';
+                    }
+                echo '</div>';
+            echo '</div>';
+        echo'</div>';
 
         $counter++;
     }
-
-    echo '<button type="submit" class="btn btn-primary">Submit</button>';
+        if (!isset($resultat)) {
+            echo '<button type="submit" class="btn btn-primary">Envoyer</button>';
+        }
     echo '</form>';
-
-echo '
-<div class="btn-group btn-group-toggle" data-toggle="buttons">
-  <label class="btn btn-secondary">
-    <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-  </label>
-  <label class="btn btn-secondary">
-    <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-  </label>
-  <label class="btn btn-secondary">
-    <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-  </label>
-</div>
-';

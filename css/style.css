@@ -57,15 +57,20 @@ h1 {
       align-items: center;
       justify-content: center;
       background-color: #CC1C55;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: bold;
       color: white;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%; }
+      width: 45px;
+      height: 45px; }
   .question .label-question {
     font-family: Castellar;
     font-size: 18px;
+    font-weight: bold; }
+  .question .the-true {
+    color: #2ecc71 !important;
+    font-weight: bold; }
+  .question .wrong {
+    color: #e74c3c !important;
     font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
