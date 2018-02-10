@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="?page=acceuil">Accueil<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#presentation-jeu-de-piste">Présentation du jeu de piste</a>

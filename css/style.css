@@ -13,12 +13,20 @@ h1 {
   font-family: Castellar;
   color: #E2BF00; }
 
-.header {
-  height: 75px;
+.btn.btn-cath {
   background-color: #CC1C55;
-  font-size: 25px; }
+  color: white; }
+
+.header {
+  background-color: #CC1C55;
+  font-size: 1.1em; }
   .header .nav-item .nav-link {
     color: white; }
+
+.navbar-light .navbar-brand {
+  color: #E2BF00;
+  font-weight: bold;
+  font-size: 1.4em; }
 
 .presentation-catheview .logo {
   display: flex;

@@ -8,7 +8,7 @@
     foreach ($questions as $question) {
         echo '<div class="question">';
             echo'<div class="row align-items-center">';
-                echo'<div class="col-1 container-numero">';
+                echo'<div class="col-1 hidden-md-down container-numero">';
                     echo'<div class="numero">'.$counter.'</div>';
                 echo'</div>';
                 echo'<div class="col-10">';
@@ -66,6 +66,10 @@
         $counter++;
     }
         if (!isset($resultat)) {
-            echo '<button type="submit" class="btn btn-primary">Envoyer</button>';
+            echo'<div class="row ">';
+                echo '<div class="col-12 text-right">';
+                    echo '<button type="submit" class="btn btn-cath">Envoyer les réponses</button>';
+                echo '</div>';
+            echo '</div>';
         }
     echo '</form>';
