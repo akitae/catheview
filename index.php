@@ -3,9 +3,11 @@
     <head>
     <meta charset="UTF-8">
     <title>Cathéview</title>
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/bootstrap/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap/propper.min.js"></script>
+    <script src="js/bootstrap/boostrap.min.js"></script>
 </head>
 
     <body>
@@ -17,16 +19,16 @@
                 </button>
                 <a class="navbar-brand" href="#">Cathéview</a>
 
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="?page=acceuil">Accueil<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="?page=acceuil">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#presentation-jeu-de-piste">Présentation du jeu de piste</a>
+                            <a class="nav-link" href="?page=acceuil#presentation-jeu-de-piste">Présentation du jeu de piste</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#visite">Visite virtuelle</a>
+                            <a class="nav-link" href="?page=acceuil#visite">Visite virtuelle</a>
                         </li>
                     </ul>
                 </div>

@@ -5,6 +5,7 @@
     echo '<form action="" method="post">';
 
     $counter = 1;
+    $counterGoodReponse = 0;
     foreach ($questions as $question) {
         echo '<div class="question">';
             echo'<div class="row align-items-center">';
@@ -55,6 +56,7 @@
                         $arrayReponse = $question->getArrayReponse();
                         if (strcmp($arrayReponse[$question->getIdReponse()-1], $question->getUserReponse()) == 0) {
                             echo '<img src="images/check.png" width="40px"/>';
+                            $counterGoodReponse++;
                         } else {
                             echo '<img src="images/cancel.png" width="40px"/>';
                         }
@@ -73,3 +75,16 @@
             echo '</div>';
         }
     echo '</form>';
+
+    if (isset($resultat)) {
+        echo '<div class="row">';
+            echo '<div class="col-12 text-center">';
+            if ($counterGoodReponse > 1) {
+                echo '<div class="result">'.$counterGoodReponse.' bonnes réponses sur '.($counter-1).' questions </div>';
+            } else {
+                echo '<div class="result">'.$counterGoodReponse.' bonne réponse sur '.($counter-1).' questions </div>';
+            }
+            echo '</div>';
+        echo '</div>';
+    }
+
