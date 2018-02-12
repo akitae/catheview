@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+
+  <data name="fr_project_title"><![CDATA[Nouveau projet]]></data>
+
+
+
+  <data name="fr_pano8_title"><![CDATA[IMG_20171215_120617-min]]></data>
+
+
+  <data name="fr_pano10_title"><![CDATA[IMG_20171215_120411-min]]></data>
+
+
+  <data name="fr_pano12_title"><![CDATA[IMG_20171215_120148-min]]></data>
+
+
+  <data name="fr_pano14_title"><![CDATA[IMG_20171215_115906-min]]></data>
+
+
+  <data name="fr_pano16_title"><![CDATA[IMG_20171215_115702-min]]></data>
+
+
+  <data name="fr_pano18_title"><![CDATA[IMG_20171215_115453-min]]></data>
+
+
+  <data name="fr_pano22_title"><![CDATA[IMG_20171215_115213-min]]></data>
+
+
+  <data name="fr_pano24_title"><![CDATA[IMG_20171215_114925-min]]></data>
+
+
+  <data name="fr_pano26_title"><![CDATA[IMG_20171215_114629-min]]></data>
+
+
+  <data name="fr_pano28_title"><![CDATA[IMG_20171215_114546-min]]></data>
+
+
+  <data name="fr_pano30_title"><![CDATA[IMG_20171215_114313-min]]></data>
+
+
+  <data name="fr_pano32_title"><![CDATA[IMG_20171215_114030-min]]></data>
+
+
+  <data name="fr_pano34_title"><![CDATA[IMG_20171215_113527-min]]></data>
+
+
+  <data name="fr_pano36_title"><![CDATA[IMG_20171215_113747-min]]></data>
+
+
+  <data name="fr_pano38_title"><![CDATA[IMG_20171215_113527-min]]></data>
+
+
+  <data name="fr_pano40_title"><![CDATA[IMG_20171215_113259-min]]></data>
+
+
+  <data name="fr_pano42_title"><![CDATA[IMG_20171215_113055-min]]></data>
+
+
+  <data name="fr_pano44_title"><![CDATA[IMG_20171215_112841-min]]></data>
+
+
+  <data name="fr_pano50_title"><![CDATA[IMG_20171215_112702-min]]></data>
+
+
+  <data name="fr_pano52_title"><![CDATA[IMG_20171215_112517-min]]></data>
+
+
+  <data name="fr_pano912_title"><![CDATA[20171215_121215-min]]></data>
+
+
+  <data name="fr_pano914_title"><![CDATA[20171215_120843-min]]></data>
+
+
+  <data name="fr_pano916_title"><![CDATA[20171215_120645-min]]></data>
+
+
+  <data name="fr_pano920_title"><![CDATA[20171215_115900-min]]></data>
+
+
+  <data name="fr_pano924_title"><![CDATA[20171215_115322-min]]></data>
+
+
+  <data name="fr_pano926_title"><![CDATA[20171215_114718-min]]></data>
+
+
+  <data name="fr_pano928_title"><![CDATA[20171215_114502-min]]></data>
+
+
+  <data name="fr_pano930_title"><![CDATA[20171215_114217-min]]></data>
+
+
+  <data name="fr_pano932_title"><![CDATA[20171215_113800-min]]></data>
+
+
+  <data name="fr_pano934_title"><![CDATA[20171215_113523-min]]></data>
+
+
+  <data name="fr_pano938_title"><![CDATA[20171215_113034-min]]></data>
+
+
+  <data name="fr_pano918_title"><![CDATA[20171215_120353-min]]></data>
+
+
+  <data name="fr_pano922_title"><![CDATA[20171215_115615-min]]></data>
+
+
+  <data name="fr_pano936_title"><![CDATA[20171215_113249-min]]></data>
+
+
+  <data name="fr_pano1737_title"><![CDATA[20171215_113800-min]]></data>
+
+
+  <data name="fr_pano1741_title"><![CDATA[20171215_114217-min]]></data>
+
+
+  <data name="fr_pano1745_title"><![CDATA[20171215_114502-min]]></data>
+
+
+  <data name="fr_pano1749_title"><![CDATA[20171215_114718-min]]></data>
+
+
+  <data name="fr_pano1753_title"><![CDATA[20171215_115322-min]]></data>
+
+
+  <data name="fr_pano1757_title"><![CDATA[20171215_115615-min]]></data>
+
+
+  <data name="fr_pano1761_title"><![CDATA[20171215_115900-min]]></data>
+
+
+  <data name="fr_pano1765_title"><![CDATA[20171215_120112-min]]></data>
+
+
+  <data name="fr_pano1769_title"><![CDATA[20171215_120353-min]]></data>
+
+
+  <data name="fr_pano1771_title"><![CDATA[20171215_120645-min]]></data>
+
+
+  <data name="fr_pano1775_title"><![CDATA[20171215_120843-min]]></data>
+
+
+  <data name="fr_pano1779_title"><![CDATA[20171215_121215-min]]></data>
+  <data name="fr_spotpoint2495_tooltip"><![CDATA[Fin de la visite / Sortir de la cathédrale]]></data>
+  <data name="fr_spotpoint2495openurlwebsiteurl"><![CDATA[http://catheview.akitae.fr/?page=aide]]></data>
+
+
+
+
+
+
+  <data name="fr_controlBar_classicprevSceneTip"><![CDATA[Panorama précédent]]></data>
+  <data name="fr_controlBar_classicnextSceneTip"><![CDATA[Panorama suivant]]></data>
+  <data name="fr_controlBar_classiczoomInTip"><![CDATA[Zoom +]]></data>
+  <data name="fr_controlBar_classiczoomOutTip"><![CDATA[Zoom -]]></data>
+  <data name="fr_controlBar_classicmoveLeftTip"><![CDATA[Déplacement vers la gauche]]></data>
+  <data name="fr_controlBar_classicmoveRightTip"><![CDATA[Déplacement vers la droite]]></data>
+  <data name="fr_controlBar_classichomeTip"><![CDATA[Accueil]]></data>
+  <data name="fr_controlBar_classicwebpageurl"><![CDATA[http://catheview.akitae.fr/]]></data>
+  <data name="fr_controlBar_classicopenFsTip"><![CDATA[Plein écran]]></data>
+  <data name="fr_controlBar_classiccloseFsTip"><![CDATA[Quitter le plein écran]]></data>
+  <data name="fr_controlBar_classicdisplayControlsTip"><![CDATA[Afficher les contrôles]]></data>
+  <data name="fr_controlBar_classichideControlsTip"><![CDATA[Masquer les contrôles]]></data>
+  <data name="fr_controlBar_classicctrlmodeDragTip"><![CDATA[Changer le mode de navigation]]></data>
+  <data name="fr_controlBar_classicctrlmodeMoveTip"><![CDATA[Changer le mode de navigation]]></data>
+  <data name="fr_logowebsiteurl"><![CDATA[http://catheview.akitae.fr/pages/aide.html]]></data>
+  <data name="fr_logotooltipText"><![CDATA[Obtenir de l'aide]]></data>
+  <data name="fr_logo1websiteurl"><![CDATA[http://catheview.akitae.fr/pages/aide.html]]></data>
+  <data name="fr_logo1tooltipText"><![CDATA[Arreter la visite et passer aux questions]]></data>
+
+
+  <data name="fr_vr_setup_hmd0"><![CDATA[CHOIX DU HMD]]></data>
+  <data name="fr_vr_setup_advanced"><![CDATA[PARAMETRES AVANCES]]></data>
+  <data name="fr_vr_setup_title"><![CDATA[PARAMETRES WEB VR]]></data>
+  <data name="fr_vr_setup_dvn1"><![CDATA[Appareil:]]></data>
+  <data name="fr_vr_setup_siz1"><![CDATA[Taille de l&#39;écran:]]></data>
+  <data name="fr_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="fr_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="fr_vr_setup_hmd3"><![CDATA[Personnaliser]]></data>
+  <data name="fr_vr_setup_cal"><![CDATA[Calibrer le gyroscope]]></data>
+  <data name="fr_vr_setup_sav"><![CDATA[ENREGISTRER]]></data>
+  <data name="fr_vr_setup_rst"><![CDATA[REINITIALISER]]></data>
+  <data name="fr_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="fr_vr_setup_cls"><![CDATA[FERMER]]></data>
+  <data name="fr_vr_setup_m31"><![CDATA[PARAMETRES DU HMD]]></data>
+  <data name="fr_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="fr_vr_setup_dst1"><![CDATA[Distorsion:]]></data>
+  <data name="fr_vr_setup_d2tx"><![CDATA[Distorsion 2:]]></data>
+  <data name="fr_vr_setup_vig1"><![CDATA[Vignettage:]]></data>
+  <data name="fr_vr_setup_cac1"><![CDATA[Aberration chromatique:]]></data>
+  <data name="fr_vr_setup_olp1"><![CDATA[Recouvrement:]]></data>
+  <data name="fr_vr_setup_m35"><![CDATA[RETOUR]]></data>
+  <data name="fr_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="fr_vr_setup_cb2"><![CDATA[Placer l&#39;appareil sur une surface plane et stable[br]puis tapez sur CALIBRER[br]pour corriger la dérive du gyroscope.]]></data>
+  <data name="fr_vr_setup_cb3"><![CDATA[CALIBRER]]></data>
+  <data name="fr_vr_setup_cb4"><![CDATA[REINITIALISER]]></data>
+  <data name="fr_vr_setup_cb5"><![CDATA[RETOUR]]></data>
+  <data name="fr_vr_setup_cb6"><![CDATA[Calibration en cours...]]></data>
+  <data name="fr_vr_setup_cb7"><![CDATA[Calibration réussie]]></data>
+  <data name="fr_vr_setup_cb8"><![CDATA[Echec de la calibration]]></data>
+  <data name="fr_vr_setup_unavailable"><![CDATA[Le mode VR[br]n&#39;est pas disponible sur cet appareil]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
