@@ -40,7 +40,7 @@
                 if(isset($_GET["page"])){
                     switch ($_GET["page"]){
                         case "aide":
-                            include ("pages/aide/aide.html");
+                            include ("pages/aide.html");
                             break;
                         case "question":
                             include ("pages/question/question_reponse.php");
