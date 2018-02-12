@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>Cathéview</title>
+    <link rel="icon" type="image/png" href="images/catheview_logo.png" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap/jquery-3.2.1.min.js"></script>
@@ -55,7 +56,12 @@
         </div>
 
         <footer>
-
+            <div class="container footer text-center">
+                <div class="row">
+                    <div class="col-6"><a href="https://catheview.wordpress.com/membres-du-groupe/">Contactez-nous !</a></div>
+                    <div class="col-6"><a href="https://catheview.wordpress.com/">Qui sommes-nous ?</a></div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
