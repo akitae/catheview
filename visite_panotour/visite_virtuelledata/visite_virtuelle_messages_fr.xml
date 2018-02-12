@@ -143,7 +143,7 @@
 
   <data name="fr_pano1779_title"><![CDATA[20171215_121215-min]]></data>
   <data name="fr_spotpoint2495_tooltip"><![CDATA[Fin de la visite / Sortir de la cathédrale]]></data>
-  <data name="fr_spotpoint2495openurlwebsiteurl"><![CDATA[http://catheview.akitae.fr/?page=aide]]></data>
+  <data name="fr_spotpoint2495openurlwebsiteurl"><![CDATA[http://catheview.akitae.fr/?page=question]]></data>
 
 
 
@@ -164,9 +164,9 @@
   <data name="fr_controlBar_classichideControlsTip"><![CDATA[Masquer les contrôles]]></data>
   <data name="fr_controlBar_classicctrlmodeDragTip"><![CDATA[Changer le mode de navigation]]></data>
   <data name="fr_controlBar_classicctrlmodeMoveTip"><![CDATA[Changer le mode de navigation]]></data>
-  <data name="fr_logowebsiteurl"><![CDATA[http://catheview.akitae.fr/pages/aide.html]]></data>
+  <data name="fr_logowebsiteurl"><![CDATA[http://catheview.akitae.fr/?page=aide]]></data>
   <data name="fr_logotooltipText"><![CDATA[Obtenir de l'aide]]></data>
-  <data name="fr_logo1websiteurl"><![CDATA[http://catheview.akitae.fr/pages/aide.html]]></data>
+  <data name="fr_logo1websiteurl"><![CDATA[http://catheview.akitae.fr/?page=question]]></data>
   <data name="fr_logo1tooltipText"><![CDATA[Arreter la visite et passer aux questions]]></data>
 
 
