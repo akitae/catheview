@@ -56,7 +56,12 @@
         </div>
 
         <footer>
-
+            <div class="container footer text-center">
+                <div class="row">
+                    <div class="col-6"><a href="https://catheview.wordpress.com/membres-du-groupe/">Contactez-nous !</a></div>
+                    <div class="col-6"><a href="https://catheview.wordpress.com/">Qui sommes-nous ?</a></div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
