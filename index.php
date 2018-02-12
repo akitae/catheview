@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <title>Cathéview</title>
+    <link rel="icon" type="image/png" href="images/catheview_logo.png" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap/jquery-3.2.1.min.js"></script>
