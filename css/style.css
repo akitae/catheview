@@ -50,11 +50,53 @@ h1 {
   margin: 50px 0 50px 0; }
 
 .choix-cathedrale {
-  padding-bottom: 30px; }
-  .choix-cathedrale .image-cathedrale {
-    width: 300px;
-    cursor: pointer; }
+  padding-bottom: 30px;
+}
+.choix-cathedrale .image-cathedrale {
+  background-color: white;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 40px;
+  box-shadow: 8px 8px 29px 0 rgba(79,79,79,1);
+  height: 380px;
+}
+.choix-cathedrale .image-cathedrale:hover {
+  -webkit-filter: brightness(130%);
+}
 
+.choix-cathedrale .image-cathedrale-false:hover {
+  filter: grayscale(50%) brightness(46%);
+}
+
+.error-image{
+  opacity: 0;
+  position: absolute;
+  left: 22%;
+  color: #CC1C55;
+  font-size: 2.5em;
+  font-weight: bold;
+  top: -1050%;
+  width: 51%;
+  text-align: center;
+}
+
+.choix-cathedrale:hover .error-image{
+  opacity: 1;
+}
+
+.choix-cathedrale:hover .error-image{
+  opacity: 1;
+}
+.bottom-midle {
+  position: absolute;
+  left: 22%;
+  color: #CC1C55;
+  font-size: 2.5em;
+  font-weight: bold;
+  top: -1050%;
+  width: 51%;
+  text-align: center;
+}
 .footer {
   background-color: #000000;
   color: white;
